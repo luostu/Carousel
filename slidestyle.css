@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{margin: 0;padding: 0;}
 *{box-sizing: border-box;}
 .window{
@@ -33,21 +32,3 @@
   /* 注意这里不需要写 z-index: 1,因为将会导致进入enter状态的时候有从左到右的现象 */
 }
 
-=======
-*{margin:0;padding:0;}
-*{box-sizing: border-box;}
-
-.window{
-  width: 400px;
-  height: 300px;
-  margin: 20px auto;
-  overflow: hidden;
-}
-.images{
-  display: flex;
-  transition: all 1s;
-}
-.images > img{
-  width: 100%;
-}
->>>>>>> v3.0 增加了无缝连接并且botton控制
